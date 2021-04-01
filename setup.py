@@ -11,7 +11,7 @@ print("[+]Now SetUp....")
 
 step1 = "chmod +x bdoor-gen.py"
 
-step2 = "sudo mv bdoor-gen.py /usr/bin/bdoor-gen"
+step2 = "sudo cp bdoor-gen.py /usr/bin/bdoor-gen"
 
 os.system(step1)
 
