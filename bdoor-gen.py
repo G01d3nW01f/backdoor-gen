@@ -5,6 +5,7 @@ import sys
 import re
 import random
 import string
+import subprocess
 
 class bcolors:
 
@@ -66,6 +67,33 @@ for i in randlst:
 
 file_name += ".php"
 
+
+def clean():
+
+    print(bcolors.YELLOW)
+    print("[+]You Wanna Clean for past generated files????")
+    print("> y or n")
+
+    select = input("> ")
+    
+    if select == "y":
+
+        junkfile = subprocess.getoutput("ls")
+        junkfile = junkfile.split("\n")
+
+        for i in junkfile:
+            reg = re.search(r"[a-zA-Z0-9]{24}\..{3,7}",i)
+
+            if reg != None:
+                os.system(f"rm {reg.group()}")
+        
+        del junkfile
+
+        print(bcolors.BLUE)
+        print("[+]Done")
+        endc()
+
+clean()
 
 
 menu = """
@@ -191,12 +219,25 @@ if choice == "1":
             endc()
 
     elif mode == "4":
-
-        file_name = file_name + ".jpg"
-        f = open(file_name,"w")
-        f.write(payload)
-        f.close()
         
+        file_name2 = file_name
+        file_name = file_name + ".jpg"
+        file_name2 = file_name2.replace(".php",".phtml")
+        f = open(file_name,"w")
+        f2 = open(file_name2,"w")
+        f.write(payload)
+        f2.write(payload)
+        f.close()
+        f2.close()
+
+        print(bcolors.GREEN)
+        print(f"[+]Generated_FileName: {file_name}")
+        print(f"[+]Generated_FileName: {file_name2}")
+        
+        endc()
+
+        sys.exit()
+
 
 
 elif choice == "2":
@@ -224,8 +265,17 @@ elif choice == "2":
     f.write(payload)
     f.close()
 
+else:
+    print(bcolors.WHITE)
+    print("Bye")
+    endc()
+    sys.exit()
+    
+    
 print(bcolors.GREEN)
 
 print(f"[+]Generated_FileName: {file_name}")
     
 endc()
+
+    
