@@ -5,6 +5,7 @@ Generate the PHP backdoor
 
 simple backdoor:
   ?cmd=<any_command>
+  
   script embed to jpeg_file with exiftool
 
 extension tricks:
