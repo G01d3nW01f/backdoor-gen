@@ -1,5 +1,5 @@
 # backdoor-gen
-generator of php_backdoor
+
 
 Generate the PHP backdoor
 
