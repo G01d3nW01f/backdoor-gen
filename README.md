@@ -1,6 +1,21 @@
 # backdoor-gen
 generator of php_backdoor
 
+Generate the PHP backdoor
+
+simple backdoor:
+  ?cmd=<any_command>
+  script embed to jpeg_file with exiftool
+
+extension tricks:
+  if disallow to .php extension 
+  .php.jpg and .phtml
+
+webshell:
+
+  simple php-webshell
+
+
 This Script is for SecTest or education Only
 So Do not use this for illegal
 
