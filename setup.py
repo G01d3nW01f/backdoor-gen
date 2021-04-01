@@ -3,7 +3,7 @@
 import os
 import sys
 
-if os.getuid != 0:
+if os.getuid() != 0:
     print("[!]YouMustExecute as root!!!!")
     sys.exit()
 
