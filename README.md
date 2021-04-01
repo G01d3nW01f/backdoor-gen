@@ -8,8 +8,8 @@ simple backdoor:
   script embed to jpeg_file with exiftool
 
 extension tricks:
-  if disallow to .php extension 
-  .php.jpg and .phtml
+  if disallow to .php extension, 
+  generate to .php.jpg and .phtml for these
 
 webshell:
 
