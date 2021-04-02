@@ -20,7 +20,6 @@ class bcolors:
     WHITE = '\033[37m'
 
 banner = """
-
      /|
     / |
    /__|______
@@ -42,7 +41,6 @@ banner = """
 |/ \___/    (_)  (_______/|_/    \/(______/ (_______)(_______)|/   \__/
 
 [+]PhP_backdoor_generator
-
 """
 
 def red():
@@ -65,8 +63,8 @@ file_name = ""
 for i in randlst:
     file_name += i
 
+del randlst
 file_name += ".php"
-
 
 def clean():
 
@@ -235,7 +233,7 @@ if choice == "1":
         print(f"[+]Generated_FileName: {file_name2}")
         
         endc()
-
+        
         sys.exit()
 
 
@@ -265,6 +263,8 @@ elif choice == "2":
     f.write(payload)
     f.close()
 
+    del payload
+    
 else:
     print(bcolors.WHITE)
     print("Bye")
