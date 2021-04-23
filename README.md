@@ -1,24 +1,22 @@
 # backdoor-gen
 
 
-Generate the PHP backdoor
+this is generator of php backdoors.
+only operation select from menu in terminal
+you don't need remember the difficulty commands 
 
-simple backdoor:
-   ?cmd=<any_command>
-  
-  script embed to jpeg_file with exiftool
+this tool can generate belows 
 
-extension tricks:
-  if disallow to .php extension, 
-  generate to .php.jpg and .phtml for these
+simple php script for command execution in url methods request
+php webshell
+php backdoor used in extension tricks
+impersonation into gif file 
+simple jpg file generate and hide the php scripts in comment (using exiftool) 
 
-webshell:
+and naming is automatically to randomise so disposable.
+generated file names are show in executed process
 
-  simple php-webshell
-
-
-This Script is for SecTest or education Only
-So Do not use this for illegal
+so optimal for file upload system security testing that's for above
 
 Install:
 
