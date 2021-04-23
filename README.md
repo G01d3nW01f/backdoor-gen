@@ -20,7 +20,7 @@ and every time irunning
 
 so optimal for file upload system security testing that's for above
 
-And every run timming initialize ask of allow to delete to old junkfiles.. 
+And every timming of initialize for ask of allow to delete to old junkfiles.... 
 So if ip has changed but don't need to rewrite to script.
 
 Install:
