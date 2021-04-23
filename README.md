@@ -1,23 +1,23 @@
 # backdoor-gen
 
 
-this is generator of php backdoors.
-only operation select from menu in terminal
-you don't need remember the difficulty commands 
+This is generator of php backdoors.
+Only operation select from menu in terminal
+You Don't need remember the difficulty commands 
 
-this tool can generate files like belows 
+This tool can generate belows ...
 
-  simple php script for command execution in url methods request
-  php webshell,
-  php backdoor used in extension tricks,
-  impersonation into gif file,
-  simple jpg file generate and hide the php scripts in comment (using exiftool).
-  
+Simple php script for command execution in url methods request.
+Php webshell.
+Php backdoor used in extension tricks.
+Impersonation into gif file. 
+Simple jpg file generate and hide the php scripts in comment (using exiftool) ....
 
 and naming is automatically to randomise so disposable.
 generated file names are show in executed process
 
 so optimal for file upload system security testing that's for above
+
 
 Install:
 
