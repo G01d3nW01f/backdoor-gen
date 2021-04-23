@@ -2,7 +2,7 @@
 
 
 This is generator of php backdoors.
-Only operation select from menu in terminal
+operation select from menu in Commandline only
 You Don't need remember the difficult commands 
 
 This tool can generate belows ...
