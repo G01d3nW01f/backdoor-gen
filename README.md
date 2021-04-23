@@ -4,7 +4,7 @@
 Generate the PHP backdoor
 
 simple backdoor:
-  ?cmd=<any_command>
+   ?cmd=<any_command>
   
   script embed to jpeg_file with exiftool
 
@@ -22,14 +22,14 @@ So Do not use this for illegal
 
 Install:
 
-git clone https://github.com/M4chin3M4N/backdoor-gen.git
+    git clone https://github.com/M4chin3M4N/backdoor-gen.git
 
-cd backdoor-gen
+    cd backdoor-gen
 
-sudo python3 setup.py
+    sudo python3 setup.py
 
 
 Usage:
 
-  bdoor-gen
+    bdoor-gen
 
