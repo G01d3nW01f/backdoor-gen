@@ -15,8 +15,7 @@ Simple jpg file generate and hide the php scripts in comment (using exiftool) ..
 
 and naming is automatically to randomise so disposable.
 generated file names are show in executed process
-
-and every time irunning 
+ 
 
 so optimal for file upload system security testing that's for above
 
