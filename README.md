@@ -8,10 +8,11 @@ you don't need remember the difficulty commands
 this tool can generate files like belows 
 
   simple php script for command execution in url methods request
-  php webshell
-  php backdoor used in extension tricks
-  impersonation into gif file 
-  simple jpg file generate and hide the php scripts in comment (using exiftool) 
+  php webshell,
+  php backdoor used in extension tricks,
+  impersonation into gif file,
+  simple jpg file generate and hide the php scripts in comment (using exiftool).
+  
 
 and naming is automatically to randomise so disposable.
 generated file names are show in executed process
