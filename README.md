@@ -17,7 +17,7 @@ and naming is automatically to randomise so disposable.
 generated file names are show in executed process
  
 
-so optimal for file upload system security testing that's for above
+so optimal for security testing of file upload systems
 
 And every timming of initialize for ask of allow to delete to old junkfiles.... 
 So if ip has changed but don't need to rewrite to script.
