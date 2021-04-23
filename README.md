@@ -3,7 +3,7 @@
 
 This is generator of php backdoors.
 Only operation select from menu in terminal
-You Don't need remember the difficulty commands 
+You Don't need remember the difficult commands 
 
 This tool can generate belows ...
 
