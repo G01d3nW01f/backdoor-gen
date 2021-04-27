@@ -19,8 +19,8 @@ generated file names are show in executed process
 
 so optimal for security testing of file upload systems
 
-execute inital process will ask to delete old generated file
-so if your ip has changed but there aren't  need to re write the host of past scripts.
+execute inital process will ask to delete old generated file,
+So if your ip has changed, but there aren't  need to re write the host of past scripts.
 
 Install:
 
